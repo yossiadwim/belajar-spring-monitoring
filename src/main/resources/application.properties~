@@ -22,8 +22,7 @@ info.website=https://github.com/yossiadwim/belajar-spring-monitoring
 
 
 
-management.endpoints.web.exposure.include=env,beans,health,info,configprops,loggers,heapdump,threaddump,scheduledtasks,metrics
-management.endpoint.metrics.enabled=true
+management.endpoints.web.exposure.include=env,beans,health,info,configprops,loggers,heapdump,threaddump,scheduledtasks
 management.endpoint.scheduledtasks.enabled=true
 management.endpoint.threaddump.enabled=true
 management.endpoint.heapdump.enabled=true
